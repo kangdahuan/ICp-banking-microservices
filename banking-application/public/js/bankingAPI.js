@@ -1,9 +1,9 @@
 /*
  * @author : Alexis Chretienne
  * @email : alexis.chretienne@fr.ibm.com
- * 
+ *
  * Sample code allowing to understand how to code API in Javascript
- * 
+ *
  */
 
 //The API Developer Portal URL
@@ -21,7 +21,7 @@ var IBM_CLIENT_SECRET = "rB0oG1rE3oE1wH3bS8kI2cE5hI7yG5pK8gM2pJ4eT3mX6mI3eF";
 
 
 /*
- * JQUERY ready
+ * JQUERY ready ready
  */
 $(document).ready(function() {
 
@@ -37,12 +37,12 @@ $(document).ready(function() {
 
 /*
  * Banking customer information
- * 
+ *
  */
 
 /**
  * Function allowing to get a banking customer's information
- * 
+ *
  * @returns customer Information
  */
 function customerInformation(customerID) {
@@ -56,7 +56,7 @@ function customerInformation(customerID) {
 /**
  * Function allowing to get a banking customer's contracts (cards & banking
  * account)
- * 
+ *
  * @returns a list of banking contracts
  */
 function customerContract() {
@@ -74,7 +74,7 @@ function customerContract() {
 
 /**
  * Function allowing to get a banking account's balance
- * 
+ *
  * @returns a balance
  */
 function balanceInquiry() {
@@ -91,7 +91,7 @@ function balanceInquiry() {
 
 /**
  * Function allowing to get last banking account's transactions
- * 
+ *
  * @returns a list of banking transactions
  */
 function transactionsInquiry() {
@@ -105,7 +105,7 @@ function transactionsInquiry() {
 
 /**
  * Function allowing to get banking account's details
- * 
+ *
  * @returns details
  */
 function accountDetail() {
@@ -124,7 +124,7 @@ function accountDetail() {
 
 /**
  * Function allowing to make a AJAX call using JQuery
- * 
+ *
  * @param path :
  *            customized URL path
  * @param parameter :
@@ -156,7 +156,7 @@ function doGet(path, parameter) {
 			$('#myPleaseWait').modal('hide');
 			console.log("complete function GET");
 		}
-       
+
 	});
 
 }
